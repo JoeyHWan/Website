@@ -120,11 +120,8 @@ a{
 .left-sidebar{
     flex-basis: 25%;
     align-self: flex-start;
-}
-
-.left-sidebar{
-    flex-basis: 25%;
-    align-self: flex-start;
+    background-color: white;
+    border-radius: 10px
 }
 
 .main-content{
@@ -134,26 +131,42 @@ a{
 
 .container div div div img{
     width: 30%;
-    height: 30%x;
+    
     border-radius: 50%;
-    border: solid 3px white;
     margin-top: -40%;
-     
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container div div img{
-    width: 100%;   
+    width: 100%;
+    border-radius: 10px;
 }
 
 
 .container div div div ul{
     list-style: none;
     margin: 20px 0;
+
+}
+.sidebar ul li{
+    font-size: 13px;
 }
 
 .sidebar ul li span{
-    width: 100%;
+    text-align: end;
     float: right;
-
+    font-size: 13px;
+}
+.sidebar h1{
+font-size: 20px;
+font-weight: 600;
+color:_#222;
+}
+.sidebar h3{
+font-size: 14px;
+font-weight: 500;
+color: #777;
 }
 
